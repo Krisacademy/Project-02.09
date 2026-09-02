@@ -73,6 +73,8 @@ public:
 int main() // Client
 {
 	Car obj1;
+	Car obj2;
+	obj2.GetPrice();
 
 	obj1.SetPrice(20000);
 	obj1.PrintCar();
