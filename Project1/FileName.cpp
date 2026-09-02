@@ -73,8 +73,6 @@ public:
 int main() // Client
 {
 	Car obj1;
-	obj1.Init("Audi A5","engine 1",25000,"Midea");
-	obj1.PrintCar();
 
 	obj1.SetPrice(20000);
 	obj1.PrintCar();
